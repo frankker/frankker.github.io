@@ -24,11 +24,10 @@
       </div>
     {% endif %}
 
-    {% if site.certificates %}
       <div class="my-6">
-        {% include professional-certificates.html %}
+        {% include interests.html %}
       </div>
-    {% endif %}
+
 
     {% unless posts_total == 0 %}
       <div class="my-6">
@@ -54,6 +53,10 @@
 
         {% if site.topics %}
           {% include interests.html %}
+        {% endif %}
+
+        {% if site.certificates %}
+          {% include professional-certificates.html %}
         {% endif %}
 
         {% unless posts_total == 0 %}

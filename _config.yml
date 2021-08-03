@@ -1,5 +1,5 @@
 layout: sidebar
-style: light
+style: dark
 
 plugins:
   - jekyll-octicons
@@ -28,14 +28,14 @@ projects:
     projects:
     # - repo-name
 
-# social_media:
+social_media:
   # behance: your_username
   # dribbble: your_username
-  # facebook: your_username
+  facebook: frankker
   # hackerrank: your_username
   # instagram: your_username
   # keybase: your_username
-  # linkedin: your_username
+  linkedin: frankker
   # mastodon: your_username
   # medium: your_username
   # stackoverflow: your_user_id
@@ -43,16 +43,39 @@ projects:
   # twitter: your_username
   # unsplash: your_username
   # vk: your_username
-  # website: http://your_website_url
+  website: http://frankker.tech
   # youtube: your_username
 
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  - name: AWS
+    web_url: https://github.com/aws
+    image_url: https://frankker-github.s3.eu-central-1.amazonaws.com/aws.jpg
 
-  - name: Web design
+  - name: Python
+    web_url: https://github.com/python
+    image_url: https://frankker-github.s3.eu-central-1.amazonaws.com/Python-logo-black.png
 
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: Apache Kafka
+    web_url: https://github.com/apache/kafka
+    image_url: https://frankker-github.s3.eu-central-1.amazonaws.com/kafka.png
+
+certificates:
+  - name: AWS Certified Solutions Architect – Professional
+    web_url: https://www.credly.com/badges/7025d279-40e5-4c66-a216-009e8e05400f
+    image_url: https://frankker-github.s3.eu-central-1.amazonaws.com/aws.jpg
+
+  - name: AWS Certified SysOps Administrator – Associate
+    web_url: https://www.credly.com/badges/b5b9b1c9-a12f-4966-a54a-3f5b5b2358f5
+    image_url: https://frankker-github.s3.eu-central-1.amazonaws.com/aws.jpg
+
+  - name: AWS Certified Developer – Associate
+    web_url: https://www.credly.com/badges/47ee5a04-a429-48b4-9479-a8d2434bf374
+    image_url: https://frankker-github.s3.eu-central-1.amazonaws.com/aws.jpg
+
+  - name: AWS Certified Solutions Architect – Associate
+    web_url: https://www.credly.com/earner/earned/share/cdd8a9d8-3d09-4e30-b08e-71c8c0ca2865
+    image_url: https://frankker-github.s3.eu-central-1.amazonaws.com/aws.jpg
+
+  - name: Oracle Certified Associate, Java SE 8 Programmer
+    web_url: https://www.credly.com/badges/b5f58c5b-0386-4ff4-823d-cd9e332d691b
+    image_url: https://frankker-github.s3.eu-central-1.amazonaws.com/Oracle_Associates_Badge__1_.png
